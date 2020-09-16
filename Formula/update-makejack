@@ -8,8 +8,6 @@ macos="makejack-$version-macos-amd64.zip"
 linux_sha=$(sha256sum "$linux" | cut -f 1 -d " ")
 macos_sha=$(sha256sum "$macos" | cut -f 1 -d " ")
 
-https://github.com/hugoduncan/makejack/releases/download/makejack-0.0.1-alpha1-SNAPSHOT-linux-amd64.zip
-
 sed -e "s/\${i}/1/" -e "s/\${VERSION}/$version/g" \
     -e "s/\${LINUX_SHA}/$linux_sha/g" \
     -e "s/\${MACOS_SHA}/$macos_sha/g" \
