@@ -4,7 +4,6 @@
 
 ## Available formulae:
 
-makejack = a clojure build tool invoker
 
 ## How do I install these formulae?
 `brew install hugoduncan/brew/<formula>`

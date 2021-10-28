@@ -12,8 +12,6 @@ class Makejack < Formula
     sha256 "09932194319ee3d195727f792fac304706e3e14f99b777b30c025dd70b8bd0ea"
   end
 
-  bottle :unneeded
-
   def install
     bin.install "mj"
   end
